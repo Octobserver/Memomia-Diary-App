@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity" >
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/edit_frag_container"
+        android:name="com.example.memomia.EditJournalText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_edit_journal_text" />
+
+    <RelativeLayout
+        android:id="@+id/relative_bookmark"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintStart_toStartOf="@+id/edit_frag_container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bookmark_closed"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@string/bookmark"
+            android:scaleType="fitXY"
+            android:src="@drawable/bookmark_bottom"
+            tools:ignore="ImageContrastCheck" />
+
+        <RelativeLayout
+            android:id="@+id/relative_bookmark_open"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bookmark"
+            android:clickable="true"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/edit_tags"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="200dp" />
+
+            <ImageButton
+                android:id="@+id/add_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="90dp"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@drawable/outline_add_circle_24"
+                app:tint="@color/black" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

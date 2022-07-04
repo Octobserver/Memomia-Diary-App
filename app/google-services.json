@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777543226313",
+    "project_id": "memo-mia-38880",
+    "storage_bucket": "memo-mia-38880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777543226313:android:f3857b29c0a495dfd98e18",
+        "android_client_info": {
+          "package_name": "com.example.memomia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777543226313-d04fihc9co494hr12q12e6acp1enijfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0l3Qo_UelL_2xY_IK63RAicPy1hsuQTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777543226313-d04fihc9co494hr12q12e6acp1enijfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

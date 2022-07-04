@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display_activity" >
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/display_activity_frag_container"
+        android:name="com.example.memomia.Display_Frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_display_" />
+
+    <ImageButton
+        android:id="@+id/display_edit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="72dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/upload"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/close"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="304dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/save"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        app:tint="@color/black"
+        tools:visibility="visible" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative_bookmark_display"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintStart_toStartOf="@+id/display_activity_frag_container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bookmark_closed_display"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@string/bookmark"
+            android:scaleType="fitXY"
+            android:src="@drawable/bookmark_bottom"
+            tools:ignore="ImageContrastCheck" />
+
+        <RelativeLayout
+            android:id="@+id/relative_bookmark_open_display"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bookmark"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/display_tag_list"
+                android:layout_width="match_parent"
+                android:layout_height="484dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="240dp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

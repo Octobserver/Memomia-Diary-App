@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Memo Mia</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Tags">Tags</string>
+
+    <string name="save">SAVE</string>
+    <string name="upload">UPLOAD</string>
+    <string name="journal_text">INPUT JOURNAL TEXT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bookmark">BOOKMARK</string>
+
+    <string name="hint_to_click">CLICK TO UPLOAD IMAGE</string>
+    <string name="hint_to_add_title">TITLE</string>
+    <string name="new_activity">NEW ENTRY</string>
+
+    <string name="features">Features</string>
+    <string name="recent">Recent</string>
+    <string name="my_diary">My Diary</string>
+    <string name="my_tags">My tags</string>
+    <string name="statistics">Statistics</string>
+    <string name="hint_email">email address</string>
+    <string name="hint_password">password</string>
+    <string name="hint_username">username</string>
+    <string name="hint_confirm">confirm password</string>
+</resources>
