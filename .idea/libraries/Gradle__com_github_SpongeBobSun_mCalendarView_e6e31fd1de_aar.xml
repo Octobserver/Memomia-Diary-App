@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SpongeBobSun:mCalendarView:e6e31fd1de@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1dd107d09a4e590a52bf42f133821bc2/transformed/jetified-mCalendarView-e6e31fd1de/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1dd107d09a4e590a52bf42f133821bc2/transformed/jetified-mCalendarView-e6e31fd1de/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1dd107d09a4e590a52bf42f133821bc2/transformed/jetified-mCalendarView-e6e31fd1de/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SpongeBobSun/mCalendarView/e6e31fd1de/923814de1400a52dabe81edfdb27ef62c225fc2a/mCalendarView-e6e31fd1de-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SpongeBobSun/mCalendarView/e6e31fd1de/f71a710468227b8d54bcac1fedaf36f259d97017/mCalendarView-e6e31fd1de-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

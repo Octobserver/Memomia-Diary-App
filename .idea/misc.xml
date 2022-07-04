@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/Desktop/TeamM-Diary/app/src/main/res/layout/fragment_my_diary.xml" value="0.175" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/access.xml" value="0.4" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/app_bar_main.xml" value="0.536" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/fragment_my_diary.xml" value="0.264" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/fragment_recent.xml" value="0.4" />
+<<<<<<< HEAD
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/signin.xml" value="0.536" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/layout/signup.xml" value="0.822141560798548" />
+        <entry key="..\:/jhu/cs/UIMA/TeamM-Diary/app/src/main/res/menu/search.xml" value="0.2" />
+=======
+        <entry key="app/src/main/res/drawable/outline_add_circle_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/outline_remove_circle_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_display.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_new.xml" value="0.19048837298995874" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_add_tag.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_display_.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_display_image_.xml" value="0.1984361522164086" />
+        <entry key="app/src/main/res/layout/fragment_edit_journal_text.xml" value="0.4100296020507812" />
+        <entry key="app/src/main/res/layout/fragment_my_diary.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recent.xml" value="0.21875152587890626" />
+        <entry key="app/src/main/res/layout/journal_layout.xml" value="0.28143963888909" />
+        <entry key="app/src/main/res/layout/tag_display_layout.xml" value="0.937280451532815" />
+        <entry key="app/src/main/res/layout/tag_layout.xml" value="0.9157516479492189" />
+>>>>>>> 4b481e8 (rebase)
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
